@@ -17,7 +17,7 @@ public class Database {
             //Declaring my url with an assigned value as my database link
             String url = "jdbc:mysql://localhost:3306/free_money";
             //Attempting to get a connection with the before given url, together with the username and password to the database
-            con = DriverManager.getConnection(url, "root", "Kiy3ia3#"); //For password see comment on my answer
+            con = DriverManager.getConnection(url, "root", ""); //For password see comment on my answer
 
             System.out.println("URL: " + url);
             System.out.println("Success");
